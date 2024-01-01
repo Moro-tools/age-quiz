@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tajawal:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+}
+.card{
+    height: 28rem;
+    width:25rem;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 10px 15px 0px #29155081;
+    text-align: center;
+}
+.title{
+    color: #340450af;
+    margin-top: 2.5rem;
+}
+
+.start{
+    margin-top: 6rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+    border: #fff;
+    cursor: pointer;
+    background: linear-gradient(45deg,#170242c7,#330146d5);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.start:hover{
+    background: linear-gradient(45deg,#170242a6,#330146a4);
+}
+.q{
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    color: #340450af;
+}
+.choose1,.choose2,.choose3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 90%;
+    background: #37056194;
+    color: #fff;
+    border-radius: 1rem;
+    font-size: 25px;
+    cursor: pointer;
+}
+.choices-1,.choices-2,.choices-3{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.choose1:hover,.choose2:hover,.choose3:hover{
+    background: #38056144;
+}
+#submit{
+    padding-left: 35%;
+    padding-right: 35%;
+    border-radius: 1rem;
+    border: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    color: #fff;
+    background: #5e1bc9;
+    font-size: 1rem;
+}
+#submit:hover{
+    background: #5e1bc9b7;
+}
+.win-lose{
+    margin-top: 2rem;
+    font-weight: bold;
+}
+.repeat{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    background: #5e1bc9;
+    cursor: pointer;
+    margin-top: 2rem;
+
+}
+.repeat:hover{
+    background: #5e1bc9b7;
+}
+.watermark{
+    margin-top: 8rem;
+    font-weight: bold;
+}
